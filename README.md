@@ -1,6 +1,6 @@
-# Python-for-beginners
+# Programming for beginners
 
-This repo intends to make materials and codes that will be count for the beginner python enthusiasts to learn python programing language.
+This repo intends to make materials and codes that will be count for the beginner programming enthusiasts to learn programing languages.
 
 ## Contribution guidelines
 
