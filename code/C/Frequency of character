@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+    int count=0,i=0;
+    char ch;
+    char str[]="One for all full cowling five percent"; //sample string
+    ch='e'; //character whose frequency is to be determined
+    
+    //loop to go through each character
+    while(str[i])
+    {
+        if(str[i]==ch)
+            count++;
+        i++;
+    }
+    
+    printf("The frequency of '%c' in the string is %d",ch,count);
+}
