@@ -1,0 +1,12 @@
+vowels='aeiou'
+sstr='Don\'t give up no matter what, be plus ultra!' #sample string
+sstr=sstr.casefold() #method for caseless matching
+count={}.fromkeys(vowels,0) #dictionary
+
+#looping through each letter
+for ltr in sstr:
+    if ltr in count:
+        count[ltr]+=1 #counting vowels
+        
+print ('The following are the no. of vowels\n')
+print(count)
