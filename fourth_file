@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+float c;int a,b;
+a=9;b=7;
+c=a/b;
+printf("%d + %d =%d",a,b,c);
+}
