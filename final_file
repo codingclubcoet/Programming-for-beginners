@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{
+int a,b=3,c=59;
+a=c-b;
+printf("%d",a);
+}
